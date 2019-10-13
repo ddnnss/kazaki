@@ -112,7 +112,7 @@
 }
 .htc-btn::after {
   background: #f1f1f1 none repeat scroll 0 0;
-  color: #b7985b;
+  color: #94341C;
   content: "";
   font-family: "Material-Design-Iconic-Font";
   font-size: 30px;
@@ -170,11 +170,11 @@
   transition: all 0.3s ease 0s;
 }
 .link-video a:hover {
-  color: #b7985b;
+  color: #94341C;
 }
 .link-video a.video-icon {
   background: #f1f1f1 none repeat scroll 0 0;
-  color: #b7985b;
+  color: #94341C;
   font-size: 30px;
   padding: 7px 18px 8px;
   transition: all 0.3s ease 0s;
@@ -188,8 +188,8 @@
     border: 1px solid #fff;
 }
 .rp-btn.btn--transparent:hover {
-  background: #b7985b none repeat scroll 0 0;
-  border: 1px solid #b7985b;
+  background: #94341C none repeat scroll 0 0;
+  border: 1px solid #94341C;
   color: #fff !important;
 }
 

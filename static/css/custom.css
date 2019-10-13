@@ -10,3 +10,32 @@
 /* ----------------------------------------------------
 	You can put your custom css code here: 
 -------------------------------------------------------*/
+.logo{
+    display: inline-block;
+}
+
+.header-wrapper{
+    display: flex;
+    align-items: center;
+
+}
+
+.place-div::before{
+    content: '';
+    width: 1px;
+    height: 100%;
+    background-color: #cecece;
+    position: absolute;
+    top: 0;
+    right: 28%;
+}
+
+.place-div::after{
+    content: '';
+    width: 1px;
+    height: 100%;
+    background-color: #cecece;
+    position: absolute;
+    top: 0;
+    right: 48%;
+}

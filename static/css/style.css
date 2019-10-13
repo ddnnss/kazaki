@@ -35,6 +35,14 @@
 /*---------------------------------------
   5. Scroll to top
 ----------------------------------------*/
+@font-face {
+    font-family: 'Fusion Sans';
+  src: url('../fonts/PF Fusion Sans Pro Light.ttf');
+  font-display: swap;
+  font-style: normal;
+
+}
+
 
 #scrollUp {
     border-radius: 2px;
@@ -107,7 +115,7 @@
     color: #fff;
 }
 #scrollUp {
-    background: #b7985b none repeat scroll 0 0;
+    background: #94341C none repeat scroll 0 0;
 }
 /*---------------------------------------
     End Scroll To Top
@@ -133,8 +141,8 @@
     z-index: 3;
 }
 .service__icon i::after {
-    background: #b7985b none repeat scroll 0 0;
-    border: 1px solid #b7985b;
+    background: #94341C none repeat scroll 0 0;
+    border: 1px solid #94341C;
     border-radius: 100%;
     content: "";
     height: 100%;
@@ -189,8 +197,8 @@
     margin-top: 10px;
 }
 .rp-btn {
-    background: #b7985b none repeat scroll 0 0;
-    border: 1px solid #b7985b;
+    background: #94341C none repeat scroll 0 0;
+    border: 1px solid #94341C;
     border-radius: 22px;
     color: #fff !important;
     display: inline-block;
@@ -207,7 +215,7 @@
     color: #606063 !important;
 }
 .about__btn a {
-    color: #b7985b;
+    color: #94341C;
     font-size: 18px;
     font-weight: 600;
     transition: 0.3s;
@@ -321,8 +329,8 @@
     visibility: visible;
 }
 .htc__hover__action a:hover {
-    background: #b7985b none repeat scroll 0 0;
-    border: 1px solid #b7985b;
+    background: #94341C none repeat scroll 0 0;
+    border: 1px solid #94341C;
     color: #fff !important;
 }
 /*------------------------------
@@ -500,12 +508,12 @@
     display: flex;
 }
 .event__post__btn p i {
-    color: #b7985b;
+    color: #94341C;
     font-size: 16px;
     margin-right: 7px;
 }
 .event__post__btn a {
-    color: #b7985b;
+    color: #94341C;
     font-size: 14px;
     margin-left: 40px;
     text-transform: capitalize;
@@ -580,8 +588,8 @@ h3.leave-comment-text {
     width: 100%;
 }
 .blog-search button.submit {
-    background-color: #b7985b;
-    border: 1px solid #b7985b;
+    background-color: #94341C;
+    border: 1px solid #94341C;
     color: #fff;
     font-size: 17px;
     height: 40px;
@@ -615,7 +623,7 @@ h3.leave-comment-text {
     transition: all 0.3s ease 0s;
 }
 .blog-right-sidebar-top a:hover {
-    color: #b7985b;
+    color: #94341C;
 }
 .blog-right-sidebar-bottom li {
     display: inline-block;
@@ -623,15 +631,15 @@ h3.leave-comment-text {
     margin-right: 14px;
 }
 .blog-right-sidebar-bottom a {
-    border: 1px solid #b7985b;
+    border: 1px solid #94341C;
     color: #666;
     display: inline-block;
     padding: 9px 24px;
     transition: all 0.4s ease 0s;
 }
 .blog-right-sidebar-bottom a:hover {
-    background-color: #b7985b;
-    border: 1px solid #b7985b;
+    background-color: #94341C;
+    border: 1px solid #94341C;
     color: #fff;
 }
 /*---------------------
@@ -653,7 +661,7 @@ h3.leave-comment-text {
     color: #666666;
 }
 .blog-meta span a:hover {
-    color: #b7985b;
+    color: #94341C;
 }
 .blog-meta > span {
     padding-right: 20px;
@@ -674,7 +682,7 @@ h3.leave-comment-text {
 }
 blockquote {
     background-color: #f6f6f6;
-    border-left: 2px solid #b7985b;
+    border-left: 2px solid #94341C;
     color: #666666;
     font-size: 16px;
     line-height: 26px;
@@ -716,7 +724,7 @@ blockquote {
 }
 .blog-reply-all .blog-title > a,
 .blog-reply-all2 .blog-title > a {
-    background-color: #b7985b;
+    background-color: #94341C;
     color: #fff;
     float: right;
     font-size: 13px;
@@ -770,8 +778,8 @@ blockquote {
     padding: 20px;
 }
 .text-leave button.submit {
-    background-color: #b7985b;
-    border: 1px solid #b7985b;
+    background-color: #94341C;
+    border: 1px solid #94341C;
     color: #fff;
     font-size: 13px;
     font-weight: 600;
@@ -798,7 +806,7 @@ blockquote {
 }
 .leave-form input:focus,
 .text-leave textarea:focus {
-    border-color: #b7985b;
+    border-color: #94341C;
     box-shadow: none;
 }
 /*---------------------
@@ -836,8 +844,8 @@ blockquote {
     width: 100%;
 }
 button.submit {
-    background-color: #b7985b;
-    border: 1px solid #b7985b;
+    background-color: #94341C;
+    border: 1px solid #94341C;
     color: #fff;
     margin-bottom: 0;
     margin-top: 20px;
@@ -876,9 +884,9 @@ button.submit:hover {
     float: left;
 }
 .communication-icon i {
-    border: 1px solid #b7985b;
+    border: 1px solid #94341C;
     border-radius: 50%;
-    color: #b7985b;
+    color: #94341C;
     font-size: 24px;
     height: 64px;
     line-height: 64px;
@@ -890,7 +898,7 @@ button.submit:hover {
     padding-top: 9px;
 }
 .communication-text > h3 {
-    color: #b7985b;
+    color: #94341C;
     font-size: 15px;
     font-weight: normal;
 }
@@ -903,7 +911,7 @@ button.submit:hover {
     transition: all 0.3s ease 0s;
 }
 .communication-text > p a:hover {
-    color: #b7985b;
+    color: #94341C;
 }
 .single-communication:last-child {
     margin-bottom: 0;
@@ -933,11 +941,11 @@ button.submit:hover {
     transition: all 0.3s ease 0s;
 }
 .download-links a.active {
-    background-color: #b7985b;
-    border: 1px solid #b7985b;
+    background-color: #94341C;
+    border: 1px solid #94341C;
 }
 .download-links a i {
-    color: #b7985b;
+    color: #94341C;
     display: block;
     float: left;
     font-size: 35px;
@@ -970,8 +978,8 @@ button.submit:hover {
     margin-top: 30px;
 }
 .download-links a:hover {
-    background-color: #b7985b;
-    border: 1px solid #b7985b;
+    background-color: #94341C;
+    border: 1px solid #94341C;
 }
 .download-links a:hover i,
 .download-links a:hover .text h4 {
@@ -982,7 +990,7 @@ button.submit:hover {
     border: 1px solid #fff;
 }
 .download-links a.active:hover i {
-    color: #b7985b;
+    color: #94341C;
 }
 .download-links a.active:hover .text h4 {
     color: #666666;
@@ -1028,7 +1036,7 @@ button.submit:hover {
     text-transform: uppercase;
 }
 .bradcamb-content ul li {
-    color: #b7985b;
+    color: #94341C;
     display: inline-block;
     font-size: 14px;
     font-weight: 400;
@@ -1040,7 +1048,7 @@ button.submit:hover {
     transition: all .3s ease 0s;
 }
 .bradcamb-content ul li a:hover {
-    color: #b7985b;
+    color: #94341C;
 }
 .bradcamb-content {
     position: relative;
@@ -1110,7 +1118,7 @@ button.submit:hover {
     font-weight: 400;
 }
 .login-toggle-btn > a {
-    color: #b7985b;
+    color: #94341C;
     float: right;
     transition: all 0.2s ease 0s;
 }
@@ -1119,9 +1127,9 @@ button.submit:hover {
 }
 .button-box .default-btn {
     background: transparent none repeat scroll 0 0;
-    border: 1px solid #b7985b;
+    border: 1px solid #94341C;
     border-radius: 30px;
-    color: #b7985b;
+    color: #94341C;
     font-size: 14px;
     margin-top: 10px;
     padding: 8px 36px;
@@ -1129,8 +1137,8 @@ button.submit:hover {
     transition: all 0.2s ease 0s;
 }
 .button-box .default-btn:hover {
-    background-color: #b7985b;
-    border: 1px solid #b7985b;
+    background-color: #94341C;
+    border: 1px solid #94341C;
     color: #fff;
 }
 .mfp-wrap {

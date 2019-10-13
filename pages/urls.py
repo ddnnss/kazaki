@@ -3,9 +3,17 @@ from . import views
 
 urlpatterns = [
     path('', views.index, name='index'),
+    path('news/', views.news, name='news'),
+    path('newsitem/', views.newsItem, name='newsitem'),
+    path('contacts/', views.contacts, name='contacts'),
+    path('about/', views.about, name='about'),
+    path('events/', views.events, name='events'),
+    path('ataman/', views.ataman, name='ataman'),
+    path('about/', views.about, name='about'),
+    path('about/', views.about, name='about'),
     # path('portfolio/', views.portfolio, name='portfolio'),
     # path('prices/', views.prices, name='prices'),
-    # path('contacts/', views.contacts, name='contacts'),
+    #
     # path('about/', views.about, name='about'),
     # path('portfolio/<nameSlug>', views.portfolio_item, name='portfolio-item'),
     # path('callback/', views.callbackForm, name='callbackForm'),

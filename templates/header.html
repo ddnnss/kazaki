@@ -4,11 +4,12 @@
             <!-- Start Header Top -->
             <div class="header__top bg-cat-1">
                 <div class="container">
-                    <div class="row">
+                    <div class="row header-wrapper">
                         <div class="col-md-6 col-lg-6 col-sm-6 col-xs-12">
                             <div class="logo">
                                 <a href="index.html"><img src="{% static 'images/logo/logo.png' %}" alt="logo"></a>
                             </div>
+                            <p style="display: inline-block; font-family: 'Fusion Sans',sans-serif; color: #ffffff; font-size: 32px">Казачье Войско Пресни</p>
                         </div>
                         <div class="col-md-6 col-lg-6 col-sm-6 col-xs-12">
                             <div class="htc__address">
@@ -16,8 +17,8 @@
                                     <i class="zmdi zmdi-phone"></i>
                                 </div>
                                 <div class="address">
-                                    <p>Call us for any help</p>
-                                    <a href="phone:+1122546665">+11 22 54 6665</a>
+                                    <p>Звонки принимаются с 10 до 20</p>
+                                    <a href="phone:+1122546665">+7 495 123 45 67</a>
                                 </div>
                             </div>
                         </div>
@@ -35,49 +36,12 @@
                                     <div class="mainmenu-content">
                                         <nav class="mainmenu__nav">
                                             <ul class="main__menu">
-                                                <li class="active"><a href="index.html">Home</a></li>
-                                                <li><a href="about-us.html">About</a></li>
-                                                <li><a href="service.html">services</a></li>
-                                                <li><a href="blog-sidebar.html">blog</a>
-                                                    <ul>
-                                                        <li>
-                                                            <a href="blog-sidebar.html">blog sidebar</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="blog-details.html">blog details</a>
-                                                        </li>
-                                                    </ul>
-                                                </li>
-                                                <li><a href="gallery.html">gallery</a></li>
-                                                <li><a href="contact.html">contact</a></li>
-                                                <li><a href="#">pages</a>
-                                                    <ul>
-                                                        <li>
-                                                            <a href="about-us.html">about us</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="gallery.html">gallery</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="service.html">services</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="login.html">login</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="register.html">register</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="blog-sidebar.html">blog sidebar</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="blog-details.html">blog details</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="contact.html">contact</a>
-                                                        </li>
-                                                    </ul>
-                                                </li>
+                                                <li {% if indexActive %} class="active"{% endif %}><a href="{% url 'index' %}">Главная</a></li>
+                                                <li {% if newsActive %} class="active"{% endif %}><a href="{% url 'news' %}">Новости</a></li>
+                                                <li {% if eventsActive %} class="active"{% endif %}><a href="{% url 'events' %}">Мероприятия</a></li>
+                                                <li {% if aboutActive %} class="active"{% endif %}><a href="{% url 'about' %}">О нас</a></li>
+                                                <li {% if contactsActive %} class="active"{% endif %}><a href="{% url 'contacts' %}">Контакты</a></li>
+                                                <li {% if atamanActive %} class="active"{% endif %}><a href="{% url 'ataman' %}">Атаман</a></li>
                                             </ul>
                                         </nav>
                                     </div>
@@ -91,45 +55,7 @@
                                             </ul>
                                         </div>
                                         <!-- End Search Area -->
-                                        <!-- Start Toggle Menu -->
-                                        <div class="visible-mobile-menu-off">
-                                            <div class="toggle-menu"><i class="zmdi zmdi-menu"></i></div>
-                                            <div class="site-info-wrap">
-                                                <div class="li-col-full">
-                                                    <span class="close icon-clear pull-right"><i class="zmdi zmdi-close"></i></span>
-                                                    <em class="color main-font">Default welcome msg!</em>
-                                                </div>
-                                                <div class="toggle-wrap">
-                                                    <!-- Start Single Menu -->
-                                                    <ul class="toggle-dropdown-menu ">
-                                                        <li><h4 class="megamenu__subtitle"><span>My Account</span></h4></li>
-                                                        <li><a href="#">What we do</a></li>
-                                                        <li><a href="#">Help</a></li>
-                                                        <li><a href="#">Compare</a></li>
-                                                        <li><a href="#">Jobs</a></li>
-                                                    </ul>
-                                                    <!-- End Single Menu -->
-                                                    <!-- Start Single Menu -->
-                                                    <ul class="toggle-dropdown-menu ">
-                                                        <li><h4 class="megamenu__subtitle"><span>Language</span></h4></li>
-                                                        <li><a href="#"><img src="images/ser-img/1.png" alt="flag images"><span>English</span></a></li>
-                                                        <li><a href="#"><img src="images/ser-img/2.png" alt="flag images"><span>German</span></a></li>
-                                                        <li><a href="#"><img src="images/ser-img/3.png" alt="flag images"><span>Spanish</span></a></li>
-                                                        <li><a href="#"><img src="images/ser-img/4.png" alt="flag images"><span>Russian</span></a></li>
-                                                    </ul>
-                                                    <!-- End Single Menu -->
-                                                    <!-- Start Single Menu -->
-                                                    <ul class="toggle-dropdown-menu ">
-                                                        <li><h4 class="megamenu__subtitle"><span>Currency</span></h4></li>
-                                                        <li><a href="#">GBP - British</a></li>
-                                                        <li><a href="#">EUR - Euro</a></li>
-                                                        <li><a href="#">USD - US Dollar</a></li>
-                                                    </ul>
-                                                    <!-- End Single Menu -->
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <!-- End Toggle Menu -->
+
                                     </div>
                                     <!-- Start search menu -->
                                     <div class="search__area">
@@ -164,40 +90,13 @@
                     <div class="mobile-menu clearfix">
                         <nav id="mobile_dropdown">
                             <ul>
-                                <li><a href="index.html">home</a></li>
-                                <li><a href="about-us.html">About us</a></li>
-                                <li><a href="service.html">services</a></li>
-                                <li><a href="#">Pages</a>
-                                    <ul>
-                                        <li>
-                                            <a href="about-us.html">about us</a>
-                                        </li>
-                                        <li>
-                                            <a href="gallery.html">gallery</a>
-                                        </li>
-                                        <li>
-                                            <a href="service.html">services</a>
-                                        </li>
-                                        <li>
-                                            <a href="login.html">login</a>
-                                        </li>
-                                        <li>
-                                            <a href="register.html">register</a>
-                                        </li>
-                                        <li>
-                                            <a href="blog-sidebar.html">blog sidebar</a>
-                                        </li>
-                                        <li>
-                                            <a href="blog-details.html">blog details</a>
-                                        </li>
-                                        <li>
-                                            <a href="contact.html">contact</a>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li><a href="blog-sidebar.html">blog</a></li>
-                                <li><a href="contact.html">contacts</a></li>
-                            </ul>
+                                               <li><a href="{% url 'index' %}">Главная</a></li>
+                                                <li><a href="{% url 'news' %}">Новости</a></li>
+                                                <li><a href="{% url 'events' %}">Мероприятия</a></li>
+                                                <li><a href="{% url 'about' %}">О нас</a></li>
+                                                <li><a href="{% url 'contacts' %}">Контакты</a></li>
+                                                <li><a href="{% url 'ataman' %}">Атаман</a></li>
+                                            </ul>
                         </nav>
                     </div>
                 </div>

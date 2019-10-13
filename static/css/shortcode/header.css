@@ -40,23 +40,23 @@ ul.main__menu {
   position: relative;
 }
 .main__menu li.active a{
-  background: #b7985b;
+  background: #94341C;
   color: #fff;
 }
 .main__menu > li:hover > a, 
 .main__menu > li:focus > a, 
 .main__menu > li:active > a, 
 .main__menu > li.current > a{
-  color: #b7985b;
+  color: #94341C;
 }
 .main__menu a:hover {
-  background: #b7985b;
+  background: #94341C;
   color: #fff !important;
 }
 
 .mainmenu-content ul > li > ul {
   background: #fff none repeat scroll 0 0;
-  border-bottom: 2px solid #b7985b;
+  border-bottom: 2px solid #94341C;
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.176);
   left: 0;
   opacity: 0;
@@ -344,7 +344,7 @@ header.header{
     position: relative;
 }
 .badge--cart {
-    background: #b7985b none repeat scroll 0 0;
+    background: #94341C none repeat scroll 0 0;
     border-radius: 100%;
     color: #fff;
     font-size: 10px;
@@ -397,7 +397,7 @@ li.search__open:hover .search-dropdown {
     text-transform: capitalize;
 }
 .toggle-dropdown-menu li h4.megamenu__subtitle span::before {
-    background: #b7985b none repeat scroll 0 0;
+    background: #94341C none repeat scroll 0 0;
     bottom: 0;
     content: "";
     height: 2px;
@@ -467,7 +467,7 @@ li.search__open:hover .search-dropdown {
   position: relative;
 }
 em.color.main-font {
-    color: #b7985b;
+    color: #94341C;
     font-size: 18px;
 }
 .li-col-full {
@@ -549,7 +549,7 @@ em.color.main-font {
   transition: 0.3s;
 }
 .search__area .search__inner form button:hover {
-  background: #b7985b none repeat scroll 0 0;
+  background: #94341C none repeat scroll 0 0;
 }
 .search__area .search__inner form button:hover::before {
   color: #fff;
@@ -582,7 +582,7 @@ em.color.main-font {
     transition: all 0.3s ease 0s;
 }
 .cart__search ul.cart__search__list li a:hover i{
-    background: #b7985b none repeat scroll 0 0;
+    background: #94341C none repeat scroll 0 0;
 }
 .cart__search__list li a:hover i {
     color: #fff;
@@ -592,11 +592,11 @@ em.color.main-font {
     color: #fff;
 }
 .toggle-menu:hover i {
-    background: #b7985b none repeat scroll 0 0;
+    background: #94341C none repeat scroll 0 0;
     color: #fff;
 }
 .toggle-menu.active i{
-    background: #b7985b none repeat scroll 0 0;
+    background: #94341C none repeat scroll 0 0;
     color: #fff;  
 }
 .toggle-menu i{

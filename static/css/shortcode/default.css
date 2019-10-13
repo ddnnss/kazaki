@@ -193,12 +193,12 @@ a {
 a:hover,
 a:focus,
 a:active {
-    color: #b7985b;
+    color: #94341C;
 }
 p a:hover,
 p a:focus,
 p a:active {
-    color: #b7985b;
+    color: #94341C;
 }
 h1 a,
 h2 a,
@@ -265,22 +265,22 @@ body {
   background: #fff;
 }
 *::-moz-selection {
-    background: #b7985b;
+    background: #94341C;
     color: #fff;
     text-shadow: none;
 }
 ::-moz-selection {
-    background: #b7985b;
+    background: #94341C;
     color: #fff;
     text-shadow: none;
 }
 ::selection {
-    background: #b7985b;
+    background: #94341C;
     color: #fff;
     text-shadow: none;
 }
 .mark, mark {
-    background: #b7985b none repeat scroll 0 0;
+    background: #94341C none repeat scroll 0 0;
     color: #ffffff;
 }
 /*-------------
@@ -296,27 +296,29 @@ body {
     background: #151515;
 }
 .bg-theme {
-    background: #b7985b;
+    background: #94341C;
 }
 .bg-cat-1{
-    background-color: #19172b;
+    /*background-color: #19172b;*/
+    background-color: #2D455F;
     color: #fff;
 }
 .bg-cat-2{
     background-color: #fafafa;
 }
 .bg-cat-3{
-    background-color: #282828;
+    /*background-color: #282828;*/
+    background-color: #2D455F;
 }
 .bg-cat-4{
     background-color: #181818;
 }
 
-.text-blue { color: #b7985b; }
+.text-blue { color: #94341C; }
 .text-white { color: #fff ;}
 .text-black { color: #363636; }
 .text-theme { 
-    color: #b7985b !important; 
+    color: #94341C !important;
 }
 
 
@@ -688,19 +690,19 @@ select {
 }
 input:focus {
     background: transparent;
-    border: 1px solid #b7985b;
+    border: 1px solid #94341C;
 }
 textarea {
     resize: vertical;
-    background: #b7985b;
-    border: 1px solid #b7985b;
+    background: #94341C;
+    border: 1px solid #94341C;
     padding: 10px;
     width: 100%;
     font-size: 14px;
 }
 textarea:focus {
     background: transparent;
-    border: 1px solid #b7985b;
+    border: 1px solid #94341C;
     outline: none;
 }
 ::-moz-placeholder {
